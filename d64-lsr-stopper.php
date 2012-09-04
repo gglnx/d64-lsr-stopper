@@ -5,7 +5,7 @@
  * Author: Dennis Morhardt, D64 e.V.
  * Author URI: http://www.dennismorhardt.de/
  * Plugin URI: http://leistungsschutzrecht-stoppen.d-64.org/
- * Version: 1.0.2
+ * Version: 1.0.3
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,7 +31,8 @@ define("LSR_BLACKLIST_URL", "http://leistungsschutzrecht-stoppen.d-64.org/blackl
 /**
  * Load Simple HTML DOM
  */
-require_once dirname(__FILE__) . '/simple_html_dom.php';
+if ( !class_exists( "simple_html_dom" ) || !function_exists( "str_get_html" ) )
+	require_once dirname(__FILE__) . '/simple_html_dom.php';
 
 /**
  * Function to update the local blacklist storage
