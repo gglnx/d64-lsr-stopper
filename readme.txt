@@ -5,7 +5,7 @@ Requires at least: 3.3
 Tested up to: 3.5
 Stable tag: 1.0.3
 
-Mit diesem Plugin verhinderst du Verlinkungen zu Internetseiten und Medien, deren Verlage das Leitungsschutzrecht unterstützen bzw. in Anspruch nehmen.
+Mit diesem Plugin verhinderst du Verlinkungen zu Medien, deren Verlage das Leitungsschutzrecht unterstützen bzw. in Anspruch nehmen.
 
 == Description ==
 
