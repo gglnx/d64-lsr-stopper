@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: D64 LSR-Stopper
- * Description: Mit diesem Plugin verhinderst du ungewollte Verlinkungen zu Medien, welche das Leitungsschutzrecht unterstützen bzw. in Anspruch nehmen.
+ * Description: Mit diesem Plugin verhinderst du ungewollte Verlinkungen zu Medien, welche das Leistungsschutzrecht unterstützen bzw. in Anspruch nehmen.
  * Author: Dennis Morhardt, D64 e.V.
  * Author URI: http://www.dennismorhardt.de/
  * Plugin URI: http://leistungsschutzrecht-stoppen.d-64.org/

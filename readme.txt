@@ -5,11 +5,11 @@ Requires at least: 3.3
 Tested up to: 3.5
 Stable tag: 1.0.3
 
-Mit diesem Plugin verhinderst du Verlinkungen zu Medien, deren Verlage das Leitungsschutzrecht unterstützen bzw. in Anspruch nehmen.
+Mit diesem Plugin verhinderst du Verlinkungen zu Medien, deren Verlage das Leistungsschutzrecht unterstützen bzw. in Anspruch nehmen.
 
 == Description ==
 
-Mit diesem Plugin werden Links zu Internetseiten und Medien, deren Verlage/Firmen das Leitungsschutzrecht unterstützen bzw. in Anspruch nehmen, auf eine <a href="http://leistungsschutzrecht-stoppen.d-64.org/blacklisted/">spezielle Seite</a> umgeleitet, die über das Leistungsschutzrecht aufklärt. Auf der Blacklist sind die Mitglieder des BDZV (Bundesvereinigung deutscher Zeitungsverleger), des VDZ (Verband deutscher Zeitschriftenverleger) sowie der Deutschen Content-Allianz. Medien, die sich explizit vom Leistungsschutzrecht distanziert haben werden wieder entfernt.
+Mit diesem Plugin werden Links zu Internetseiten und Medien, deren Verlage/Firmen das Leistungsschutzrecht unterstützen bzw. in Anspruch nehmen, auf eine <a href="http://leistungsschutzrecht-stoppen.d-64.org/blacklisted/">spezielle Seite</a> umgeleitet, die über das Leistungsschutzrecht aufklärt. Auf der Blacklist sind die Mitglieder des BDZV (Bundesvereinigung deutscher Zeitungsverleger), des VDZ (Verband deutscher Zeitschriftenverleger) sowie der Deutschen Content-Allianz. Medien, die sich explizit vom Leistungsschutzrecht distanziert haben werden wieder entfernt.
 
 <ul>
 	<li><a href="http://leistungsschutzrecht-stoppen.d-64.org/">Weitere Informationen gibt es bei D64 &rarr;</a></li>
