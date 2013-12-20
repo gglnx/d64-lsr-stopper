@@ -5,7 +5,7 @@
  * Author: Dennis Morhardt, D64 e.V.
  * Author URI: http://www.dennismorhardt.de/
  * Plugin URI: http://leistungsschutzrecht-stoppen.d-64.org/
- * Version: 1.0.3
+ * Version: 1.0.4
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -77,9 +77,14 @@ function d64_lsr_check($string) {
 
 	// Get DOM for string
 	$dom = str_get_html($string);
+
+	// Apply preg_quote
+	foreach ( $blacklist->sites as $index => $site ):
+		$blacklist->sites[$index] = preg_quote( $site, '#' );
+	endforeach;
 	
 	// Prepare regex
-	$regex = "^(" . implode( "|", $blacklist->sites ) . ")^";
+	$regex = "#(^|\.)(" . implode( "|", $blacklist->sites ) . ")$#";
 		
 	// Find all links
 	foreach( $dom->find('a') as $element ):

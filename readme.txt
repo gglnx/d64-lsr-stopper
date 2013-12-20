@@ -2,8 +2,8 @@
 Contributors: GIGALinux
 Tags: politics, campaign
 Requires at least: 3.3
-Tested up to: 3.5
-Stable tag: 1.0.3
+Tested up to: 3.8
+Stable tag: 1.0.4
 
 Mit diesem Plugin verhinderst du Verlinkungen zu Medien, deren Verlage das Leistungsschutzrecht unterstützen bzw. in Anspruch nehmen.
 
